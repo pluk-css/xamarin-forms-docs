@@ -19,7 +19,7 @@ this.chart.YAxis.CustomLabels = new NSDictionary(new NSNumber(100), UIColor.Blue
 
 <img src="../../images/chart-custom-axis001.png"/>
 
-TKChartAxis can have a custom render that you would use for drawing an axis completery by your taste. For the porpouse a new custom Axis should be created that derives from TKChartAxisRender and it's method <code>renderForChart</code> should be overriten:
+TKChartAxis can have a custom render that you would use for drawing an axis completery by your taste. For the purpose a new custom Axis should be created that derives from TKChartAxisRender and it's method <code>renderForChart</code> should be overriten:
 
 <snippet id='chart-custom-axis-render'/>
 <snippet id='chart-custom-axis-render-swift'/>
